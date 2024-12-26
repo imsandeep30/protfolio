@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.6bead6fd.css",
-    "main.js": "/protfolio/static/js/main.cb4d77f0.js",
+    "main.css": "/protfolio/static/css/main.ceed9f87.css",
+    "main.js": "/protfolio/static/js/main.0c6ad909.js",
     "static/media/World-Travel-PNG-Image.png": "/protfolio/static/media/World-Travel-PNG-Image.e2369e0dd5e163f956d2.png",
     "static/media/clock.png": "/protfolio/static/media/clock.67dca3e2da03e707dd58.png",
     "static/media/29561-1-cooking.png": "/protfolio/static/media/29561-1-cooking.1093ea1d79e56a3e020c.png",
@@ -13,11 +13,11 @@
     "static/media/slick.ttf": "/protfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/protfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/protfolio/index.html",
-    "main.6bead6fd.css.map": "/protfolio/static/css/main.6bead6fd.css.map",
-    "main.cb4d77f0.js.map": "/protfolio/static/js/main.cb4d77f0.js.map"
+    "main.ceed9f87.css.map": "/protfolio/static/css/main.ceed9f87.css.map",
+    "main.0c6ad909.js.map": "/protfolio/static/js/main.0c6ad909.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bead6fd.css",
-    "static/js/main.cb4d77f0.js"
+    "static/css/main.ceed9f87.css",
+    "static/js/main.0c6ad909.js"
   ]
 }
