@@ -25,12 +25,19 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div class="white-line"></div>
       <About currentImage={images[currentImageIndex]} /> {/* Pass currentImage */}
+      <div class="white-line"></div>
       <Skills />
+      <div class="white-line"></div>
       <ProgrammingLanguages />
+      <div class="white-line"></div>
       <Certifications />
+      <div class="white-line"></div>
       <Projects />
+      <div class="white-line"></div>
       <Contact />
+      <div class="white-line"></div>
       <Footer />
     </div>
   );
@@ -117,27 +124,27 @@ function Skills() {
       <h2>Skills</h2>
       <div className="skills-container">
         <div className="skill-item">
-          <FaReact size={50} />
+          <FaReact className="logos" size={50} />
           <p>React</p>
         </div>
         <div className="skill-item">
-          <FaHtml5 size={50} />
+          <FaHtml5 className="logos" size={50} />
           <p>HTML5</p>
         </div>
         <div className="skill-item">
-          <FaCss3Alt size={50} />
+          <FaCss3Alt className="logos" size={50} />
           <p>CSS3</p>
         </div>
         <div className="skill-item">
-          <FaNodeJs size={50} />
+          <FaNodeJs className="logos" size={50} />
           <p>Node.js</p>
         </div>
         <div className="skill-item">
-          <FaGithub size={50} />
+          <FaGithub className="logos" size={50} />
           <p>GitHub</p>
         </div>
         <div className="skill-item">
-          <FaJsSquare size={50} />
+          <FaJsSquare className="logos" size={50} />
           <p>JavaScript</p>
         </div>
         {/* SQL Skill */}
@@ -211,11 +218,8 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <h2>Projects</h2>
-      <div className="project-list">
-        {/* Add any other projects here */}
-        <MajorProject />
-        <MinorProjects />
-      </div>
+      <MajorProject />
+      <MinorProjects />
     </section>
   );
 }
@@ -270,10 +274,10 @@ function MajorProject() {
         <div className="project-description">
           <p>
             {/* Add the description of the project here */}
-            Pack Ur Bags is a travel and packing assistant application designed to help users organize their
-            luggage based on the destination and duration of their trip. The app suggests necessary items, 
-            provides checklists, and makes packing easier. It also includes recommendations based on the weather
-            forecast and type of activities planned.
+            PackUrBags, and it’s designed to help travelers easily find accommodations nearby
+             With PackUrBags, travelers can search for a range of accommodations, including homestays, 
+             which is great if hotels are fully booked. Homeowners can list their properties and set their own prices, creating a mutually beneficial situation for both travelers and hosts.
+             it addresses a real need for travelers while offering a simple and effective solution
             {/* Example, change this to your own description */}
           </p>
         </div>
@@ -286,7 +290,7 @@ function MinorProjects() {
   return (
     <div className="minor-projects">
       <h2>Minor Projects</h2>
-      <div className="project-list">
+      <div className="project-list1">
         <div className="project-item">
           <img src={cookingLogo} alt="Recipe Project" className="project-logo" />
           <h3>Recipe</h3>
